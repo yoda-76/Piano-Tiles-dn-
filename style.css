@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+  background-color: black;
+}
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.p-color{
+    color: aliceblue;
+}
+h1,h2{
+    margin: 8px 5px;
+    font-size: 17px;
+}
+/* ------------------------------Body design-------------------------- */
+.main-body{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    z-index: -10000;
+}
+.intro{
+    /* z-index: 1000;
+    background-color: red; */
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Orbitron', sans-serif;
+}
+.title,.rules{
+    border: 2px dotted white;
+    height: 50%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+.main-frame{
+    width: 310px;
+    height: 57vh;
+    margin-top: 50px;
+    border-top: 4px solid #78ec78;
+    border-bottom: 4px solid red;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.row{
+width: 25%;
+}
+/* ----------------------------Button design--------------------------- */
+.main-frame div{
+    
+   
+    aspect-ratio: 1;
+   
+}
+
+.clicked{
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 1px solid rgb(32, 24, 24);
+    margin: 10px;
+    background-color: #8b8b3400;
+    color: #000;
+    box-shadow: 0 0 2px #008eff, 0 0 10px rgb(0 110 255 / 80%), 0 0 1px rgb(0 102 255 / 70%), 0 0 10px rgb(0 55 255 / 60%);
+    border-color: #fff;
+}
+.active{
+    box-shadow: 0 0 2px #e1ff00, 0 0 10px rgba(221, 255, 0, 0.8), 0 0 1px rgba(234, 255, 0, 0.7), 0 0 10px rgba(225, 255, 0, 0.6);
+    
+    color: aliceblue;
+}
+
+.alert{
+    border: 1px solid rgb(32, 24, 24);
+    margin: 10px;
+    background-color: #8b8b3400;
+    color: #000;
+    box-shadow: 0 0 2px #ff0000, 0 0 10px rgba(255, 0, 0, 0.8), 0 0 1px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.6);
+    border-color: #fff;    
+}
+.safe{
+    border: 1px solid rgb(32, 24, 24);
+    margin: 10px;
+    background-color: #8b8b3400;
+    color: #000;
+    box-shadow: 0 0 2px #00ff11, 0 0 10px rgba(0, 255, 72, 0.8), 0 0 1px rgba(0, 255, 72, 0.7), 0 0 10px rgba(0, 255, 38, 0.6);
+    border-color: #fff;
+
+}
+
+.play-button button{
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 22px;
+}
+.title{
+    /* position: absolute; */
+  
+    font-size: 45px;
+    text-align: center;
+   
+}
+.rules{
+    
+    /* position: absolute; */
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: large;
+}
+.rules button{
+    margin: 20px;
+    padding: 10px;
+}
+/* ------------------------------animation */
+
+/* @keyframes movetop {
+    0%   {  top:0px;}
+    25%  {  top:0px;}
+    50%  {  top:200px;}
+    75%  {  top:200px;}
+    100% {  top:0px;}
+  } */
